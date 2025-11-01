@@ -10,7 +10,7 @@ from typing import List
 # data.gov.in API credentials
 API_BASE_URL = "https://api.data.gov.in/resource/ee03643a-ee4c-48c2-ac30-9f2ff26ab722"
 # API_KEY = "579b464db66ec23bdd000001cdd3946e44ce4aad7209ff7b23ac571b"  # Set via environment variable
-API_KEY = os.get("API_KEY","579b464db66ec23bdd000001cdd3946e44ce4aad7209ff7b23ac571b")  # Set via environment variable
+API_KEY = os.getenv("API_KEY","579b464db66ec23bdd000001cdd3946e44ce4aad7209ff7b23ac571b")  # Set via environment variable
 API_TIMEOUT = 30  # seconds
 
 # State filter
